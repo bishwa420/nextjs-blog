@@ -5,6 +5,11 @@ export default function FirstPost() {
 
     return (
      <>
+         <style jsx>{`
+            a {
+                color: blue
+            }
+         `}</style>
         <h1>First Post</h1>
          <h2>
              <Link href="/">
